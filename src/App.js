@@ -14,7 +14,7 @@ const pageId = {
 };
 
 const App = () => {
-  const [currentPage, setPage] = useState('searchResults'); // searchResults, recipe
+  const [currentPage, setPage] = useState('landing'); // searchResults, recipe
   const [curentrecipe, setCurrentRecipe] = useState('banana bread');
   const todaysRecipe = 'no-knead focaccia'; 
 
