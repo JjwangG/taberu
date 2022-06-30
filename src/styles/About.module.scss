@@ -1,0 +1,18 @@
+@import './custom.scss';
+
+.main{
+    &__container{
+        text-align: center;
+        padding: 8vmin;
+
+        &__header{
+            font-family: $Header;
+            font-size: 4rem;
+            color: $accent;
+        }
+        &__text{
+            font-family: $Body;
+            font-size: 1.4rem;
+        }
+    }
+}

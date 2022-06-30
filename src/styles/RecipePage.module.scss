@@ -1,0 +1,94 @@
+@import './custom.scss';
+
+.main{
+    padding: 4vmin;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6vmin;
+    padding-left: 6vmin;
+
+    &__info{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: fit-content;
+        column-gap: 15px;
+
+        &__imgDiv{
+            flex: 1;
+            border: 3px solid $accent;
+            border-radius: 10px;
+            width: fit-content;
+            height: fit-content;
+            
+            &__img{
+                width: 30vw;
+                border-radius: 7px;
+            }
+        }
+        &__details{
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 5vmin;
+            text-align: center;
+            &__header{
+                font-family: $Header;
+                color: $accent;
+                font-size: 10vmin;
+                padding-right: 10px;
+            }
+            &__h2{
+                font-family: $H2;
+                color: rgb(74, 74, 74);
+                font-size: 3vmin;
+            }
+        }
+    }
+    &__recipe{
+        display:flex;
+        flex-direction: row;
+        padding-top: 30px;
+
+        &__ingredients{
+            flex:1;
+            font-family: $H2;
+            color: $accent;
+            &__h2{
+                font-family: $H2;
+                color: rgb(102, 102, 102);
+                font-size: 1.2rem;
+            }
+            &__list{
+                padding: 10px 0 0 0;
+                list-style: none;
+                font-family: $Body;
+                color: black;
+                font-size: 1.2rem;
+                &__ingredient{
+                    padding-bottom: 10px;
+                }
+            }
+
+        }
+        &__prep{
+            flex:2;
+            font-family: $H2;
+            color: $accent;
+            &__list{
+                padding: 10px 0 0 0;
+                list-style: none;
+                font-family: $Body;
+                font-size: 1.2rem;
+                color: black;
+                &__header{
+                    font-family: $H2;
+                    color: rgb(102, 102, 102);
+                }
+            }
+        }
+    }
+}
+

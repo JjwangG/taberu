@@ -1,0 +1,24 @@
+//custom google fonts
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Dosis:wght@800&family=Quicksand:wght@500&display=swap');
+//colours
+
+$bg: #ffffffff;
+$font: #424242;
+$accent: #f06449ff;
+$light-orange: #FACCC3;
+$second-orange:#ffb0a0;
+
+//fonts
+$Header: 'Dosis', sans-serif;;
+$H2:'Capriola', sans-serif;
+$Body: 'Quicksand', sans-serif;;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

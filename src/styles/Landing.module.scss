@@ -1,0 +1,65 @@
+@import './custom.scss';
+
+.main{
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__header{
+            padding-top: 7vh;
+            font-family: $Header;
+            color: $accent;
+            font-size: 6.5rem;
+        }
+        &__text{
+            font-family: $Body;
+            color: $accent;
+            font-size: 1.5rem;
+        }
+        &__search{
+            flex-direction: row;
+            padding-bottom: 15px;
+
+            &__input{
+                text-align: start;
+                width: 35vw;
+                font-family: $Body;
+                font-size: 1.2rem;
+                color: rgb(157, 157, 157);
+                padding: 10px;
+                padding-left: 20px;
+                margin: 12px 12px;
+                border-radius: 25px 0 0px 25px;
+                border: 3px solid $accent;
+                margin: 0;
+            }
+            &__filter{
+                padding: 10px;
+                border-radius: 0px 25px 25px 0px;
+                border-bottom: 3px solid $accent;
+                border-top: 3px solid $accent;
+                border-right: 3px solid $accent;
+                background-color: $accent;
+                width: 15vw;
+                font-family: $Body;
+                font-size: 1.2rem;
+                color: $bg;
+                margin-right: 12px;
+            }
+            &__btn{
+                padding: 10px;
+                background-color:  $accent;
+                border-radius: 50%;
+                font-family: $Body;
+                font-size: 1.2rem;
+                color: $bg;
+                width: 3rem;
+                &__icon{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

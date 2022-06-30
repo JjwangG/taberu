@@ -1,0 +1,82 @@
+@import './custom.scss';
+
+.modal {
+    &__header{
+        font-family: $H2;
+        background-color: $bg;
+        color: $accent;
+        &__title{
+            font-size: 2rem;
+        }
+    }
+
+    &__body{
+        border-radius: 30px;
+        background-color: $bg;
+        height:fit-content;
+        padding:30px;
+        display: flex;
+        flex-direction: column;
+        &__header{
+            font-family: $H2;
+            font-size: 1.3rem;
+            color: grey;
+        }
+        &__applybtn{
+            margin-left: 35%;
+            margin-bottom: 10px;
+            text-decoration: none;
+            background-color: $accent;
+            border-radius: 10px;
+            font-family: $H2;
+            font-size: 1rem;
+            padding: 5px 40px 5px 40px;
+            color: white;
+            border: none;
+            &:hover {
+                background: rgb(163, 67, 48);
+                color: white;
+            }
+        }
+        &__slider{
+            width:85%;
+        }
+        &__grid{
+            display: flex;
+            flex-wrap: wrap;
+            &__btn{
+                margin-right: 5px;
+                margin-bottom: 5px;
+                text-decoration: none;
+                background-color: $second-orange;
+                border-radius: 20px;
+                font-family: $H2;
+                font-size: 1rem;
+                padding: 5px 7px 5px 7px;
+                color: white;
+                &:hover{
+                    background: $accent;
+                }
+                &:active{
+                    background: $accent;
+                }
+                
+            }
+            &__btn2{
+                margin-right: 5px;
+                text-decoration: none;
+                border: 2px solid gray;
+                border-radius: 20px;
+                font-family: $H2;
+                font-size: 1rem;
+                padding: 5px 7px 5px 7px;
+                color: gray;
+                &:hover {
+                    background: rgb(186, 186, 186);
+                    color: white;
+                }
+                
+            }
+        }
+    }
+}
