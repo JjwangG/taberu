@@ -1,13 +1,12 @@
-import { Modal,Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import classes from './../styles/Filter.module.scss';
 import React from 'react';
 import { useState } from 'react';
 
 function Filter(props){
-    const [sliderValue, setSlider] = useState(50);
-
+    const [sliderValue, setSlider] = useState(30);
     const handleSlider = (e) => setSlider(e.target.value);
-
+    
     return(
         <Modal show={props.trigger} onHide={() => props.setTrigger(false)} className={classes.modal}>
             <Modal.Header closeButton className={classes.modal__header}>
@@ -17,8 +16,8 @@ function Filter(props){
                 <div>
                     <h2 className={classes.modal__body__header}>time to prepare: </h2>
                     <input type="range" id="slider" className={classes.modal__body__slider} 
-                        value={sliderValue} min="0" max="100" onChange={handleSlider}/>{' '}
-                    <p>range: 0 - {sliderValue} min</p>
+                        value={sliderValue} min="0" max="60" onChange={handleSlider}/>{' '}
+                    <p>range: 0 - {sliderValue} hr</p>
                     <br/><br/>
                     <h2 className={classes.modal__body__header}>type of cuisine: </h2>
                     <div className={classes.modal__body__grid}>
@@ -41,7 +40,11 @@ function Filter(props){
                         <button className={classes.modal__body__grid__btn2}> + more </button>
                     </div>
                     <br/>
-                    <Button onClick={() => props.setTrigger(false)} className = {classes.modal__body__applybtn}>apply</Button>
+                    <div>
+                        <button onClick={() => props.setTrigger(false)} className = {classes.modal__body__applybtn}>apply</button>
+                        <button onClick={() => props.setTrigger(false)} className = {classes.modal__body__applybtn}>clear</button>
+                    </div>
+                    
                 </div>
             </Modal.Body>
         </Modal>

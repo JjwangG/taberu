@@ -14,14 +14,19 @@
             ],
             "prep": [
                 "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.",
-                "In a large bowl, combine flour, baking soda and salt. In a separate bowl, cream together butter and brown sugar. Stir in eggs and mashed bananas until well blended. Stir banana mixture into flour mixture; stir just to moisten. Pour batter into prepared loaf pan.",
+                "In a large bowl, combine flour, baking soda and salt.", 
+                "In a separate bowl, cream together butter and brown sugar. Stir in eggs and mashed bananas until well blended.", 
+                "Stir banana mixture into flour mixture; stir just to moisten. Pour batter into prepared loaf pan.",
                 "Bake in preheated oven for 60 to 65 minutes, until a toothpick inserted into center of the loaf comes out clean. Let bread cool in pan for 10 minutes, then turn out onto a wire rack."
             ],
             "rating": 4,
             "serving": 12,
             "author": "Shelley Albeluhn",
             "time": "1 hr 5 min",
-            "img": "images/bananabread.jpg"
+            "img": "images/bananabread.jpg",
+            "video": "https://www.youtube.com/embed/watch?v=0W9lXaHcXL4&ab_channel=Allrecipes",
+            "cuisine": "american",
+            "mealtype": "baked"
         },
         {
             "id": 2,
@@ -43,15 +48,20 @@
             "prep": [
                 "In a bowl, combine the thin strips of pork, water, cornstarch, 1 tsp oil, 2 tsp Shaoxing wine, oyster sauce and light soy sauce. Mix well and set aside while you prepare the other ingredients.",
                 "De-seed the peppers, and thinly slice them on a diagonal. Prepare your ginger and garlic.",
-                "Heat your wok over high heat until smoking. Add 1 tablespoon of oil, and then add the pork. Stir-fry for 2-3 minutes, until the pork is lightly browned around the edges. Remove the pork from the wok and set aside.",
-                "Over medium-high heat, add another tablespoon of oil, along with the ginger, garlic, and peppers, and fry for 30 seconds to 1 minute. The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.",
+                "Heat your wok over high heat until smoking. Add 1 tablespoon of oil, and then add the pork." ,
+                "Stir-fry for 2-3 minutes, until the pork is lightly browned around the edges. Remove the pork from the wok and set aside.",
+                "Over medium-high heat, add another tablespoon of oil, along with the ginger, garlic, and peppers, and fry for 30 seconds to 1 minute. The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic!",
+                "Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.",
                 "Add the pork back to the wok along with the sugar and dark soy sauce. Stir-fry for another few seconds over high heat, and serve."
             ],
             "rating": 5,
             "serving": 4,
             "author": "Sarah Choi",
             "time": "20 min",
-            "img": "images/stirfry.jpg"
+            "img": "images/stirfry.jpg",
+            "video": "https://www.youtube.com/embed/watch?v=WujehK7kYLM&ab_channel=ChineseCookingDemystified",
+            "cuisine": "chinese",
+            "mealtype": "entree"
         },
         {
             "id": 3,
@@ -69,18 +79,113 @@
                 "Whisk one ¼-oz. envelope active dry yeast (about 2¼ tsp.), 2 tsp. honey, and 2½ cups lukewarm water in a medium bowl and let sit 5 minutes",
                 "Add 5 cups (625 g) all-purpose flour and 5 tsp. Diamond Crystal or 1 Tbsp. Morton kosher salt and mix with a rubber spatula until a shaggy dough forms and no dry streaks remain.",
                 "Pour 4 Tbsp. extra-virgin olive oil into a big bowl that will fit in your refrigerator. This puppy is going to rise! Transfer dough to bowl and turn to coat in oil. Cover with a silicone lid or plastic wrap and chill until dough is doubled in size (it should look very bubbly and alive), at least 8 hours and up to 1 day. If you're in a rush, you can also let it rise at room temperature until doubled in size, 3–4 hours.",
-                "Generously butter a 13x9 inch baking pan, for thicker focaccia that’s perfect for sandwiches, or an 18x13inch rimmed baking sheet, for focaccia that's thinner, crispier, and great for snacking. The butter may seem superfluous, but it’ll ensure that your focaccia doesn’t stick. Pour 1 Tbsp. extra-virgin olive oil into center of pan. Keeping the dough in the bowl and using a fork in each hand, gather up edges of dough farthest from you and lift up and over into center of bowl. Give the bowl a quarter turn and repeat process. Do this 2 more times; you want to deflate dough while you form it into a rough ball. (We learned this technique from Alexandra Stafford, who uses it to shape her no-knead bread.) Transfer dough to prepared pan. Pour any oil left in bowl over and turn dough to coat it in oil. Let rise, uncovered, in a dry, warm spot (like near a radiator or on top of the fridge or a preheating oven) until doubled in size, at least 1½ hours and up to 4 hours.",
-                "Place a rack in middle of oven; preheat to 450°. To see if the dough is ready, poke it with your finger. It should spring back slowly, leaving a small visible indentation. If it springs back quickly, the dough isn’t ready. (If at this point the dough is ready to bake but you aren’t, you can chill it up to 1 hour.) Lightly oil your hands. If using a rimmed baking sheet, gently stretch out dough to fill (you probably won't need to do this if using a baking pan). Dimple focaccia all over with your fingers, like you’re aggressively playing the piano, creating very deep depressions in the dough (reach your fingers all the way to the bottom of the pan). Drizzle with remaining 1 Tbsp. extra-virgin olive oil and sprinkle with flaky sea salt. Bake focaccia until puffed and golden brown all over, 20–30 minutes.",
-                "Hold off on this last step until you're ready to serve the focaccia: Melt 4 Tbsp. unsalted butter in a small saucepan over medium heat. Remove from heat. Peel and grate in 2–4 garlic cloves with a Microplane (use 2 cloves if you’re garlic-shy or up to 4 if you love it). Return to medium heat and cook, stirring often, until garlic is just lightly toasted, 30–45 seconds. (Or, if you prefer raw garlic to toasted garlic, you can grate the garlic into the hot butter, off heat, then brush right away.)",
+                "Generously butter a 13x9 inch baking pan, for thicker focaccia that’s perfect for sandwiches, or an 18x13inch rimmed baking sheet, for focaccia that's thinner, crispier, and great for snacking. The butter may seem superfluous, but it’ll ensure that your focaccia doesn’t stick.",
+                "Pour 1 Tbsp. extra-virgin olive oil into center of pan. Keeping the dough in the bowl and using a fork in each hand, gather up edges of dough farthest from you and lift up and over into center of bowl. Give the bowl a quarter turn and repeat process. Do this 2 more times; you want to deflate dough while you form it into a rough ball.", "Rest until doubled in size, at least 1½ hours and up to 4 hours.",
+                "Place a rack in middle of oven; preheat to 450°. To see if the dough is ready, poke it with your finger. It should spring back slowly, leaving a small visible indentation. If it springs back quickly, the dough isn’t ready. (If at this point the dough is ready to bake but you aren’t, you can chill it up to 1 hour.)", "Lightly oil your hands. If using a rimmed baking sheet, gently stretch out dough to fill (you probably won't need to do this if using a baking pan). Dimple focaccia all over with your fingers, like you’re aggressively playing the piano, creating very deep depressions in the dough (reach your fingers all the way to the bottom of the pan). Drizzle with remaining 1 Tbsp. extra-virgin olive oil and sprinkle with flaky sea salt. Bake focaccia until puffed and golden brown all over, 20–30 minutes.",
+                "Hold off on this last step until you're ready to serve the focaccia: Melt 4 Tbsp. unsalted butter in a small saucepan over medium heat. Remove from heat.", "Peel and grate in 2–4 garlic cloves with a Microplane (use 2 cloves if you’re garlic-shy or up to 4 if you love it). Return to medium heat and cook, stirring often, until garlic is just lightly toasted, 30–45 seconds. (Or, if you prefer raw garlic to toasted garlic, you can grate the garlic into the hot butter, off heat, then brush right away.)",
                 "Brush garlic-butter all over focaccia and slice into squares or rectangles to enjoy"
             ],
             "rating": 5,
             "serving": 10,
             "author": "Sarah Jampel",
             "time": "9 hr 40 min",
-            "img": "images/focaccia.jpg"
+            "img": "images/focaccia.jpg",
+            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "cuisine": "italian",
+            "mealtype": "baked"
+        },
+        {
+            "id": 4,
+            "name": "kimchi jeon",
+            "ingredients":[
+                "1 cup thinly sliced fully-fermented kimchi",
+                "1-2 scallions",
+                "1/4 medium onion",
+                "3 oz. minced pork, canned tuna (without the liquid), or squid cut into small strips - optional",
+                "cooking oil with high smoke point",
+                "1 1/4 cups all-purpose flour",
+                "2 to 3 tbsp liquid from kimchi",
+                "1 or 2 tsp gochujang (Korean chili pepper paste) or gochugaru - optional",
+                "1 beaten egg - optional",
+                "1 cup ice cold water"
+            ],
+            "prep": [
+                "Thinly slice the kimchi, about 1/2-inch thick. Cut the scallions into about 2-inch pieces. If the white part is thick, cut in half lengthwise. Thinly slice the onion.",
+                "In a large bowl, combine the flour (or pancake mix) with the liquid from kimchi, the optional gochujang/gochugaru and egg, and water, a little bite at a time. Start with dissolving the gochujang with water, and mix everything together. Do not over mix.",
+                "Add a little more water if the batter is too thick. The batter should flow easily from a spoon.",
+                "Stir in the kimchi, scallions, onion and the optional protein of your choice.",
+                "Heat one tablespoon of oil in a non-stick pan over medium heat. Ladle the mixture into the pan, and spread it evenly into a thin round shape. Cook until the edges turn light golden brown, about 3 minutes. Turn it over, and add more oil to the sides of the pan. Gently swirl the pan to distribute the oil under the pancakes. Press the pancake down with a spatula. Cook until the other side is nicely browned and crispy, 2 to 3 minutes.",
+                "Repeat the process until there is no remaining batter. Serve hot with a dipping sauce, if desired."
+            ],
+            "rating": 4.8,
+            "serving": 3,
+            "author": "Hyosun Kim",
+            "time": "30min",
+            "img": "images/jeon.png",
+            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "cuisine": "korean",
+            "mealtype": "appetizer"
+        },
+        {
+            "id": 5,
+            "name": "vietnamese iceed coffee",
+            "ingredients":[
+                "2 tbsp medium-grind french roast coffee",
+                "2 tbsp sweetened condensed milk",
+                "ice"
+            ],
+            "prep":[
+                "Boil water, remove from heat to cool just a bit while you measure out your coffee grounds.",
+                "Add sweetened condensed milk to a cup. Fill a separate, tall glass with ice. The more ice you use, the weaker the iced coffee.",
+                "Spoon in the coffee into the Vietnamese Coffee Maker. Wet the grounds with about a tablespoon of the hot water. Screw on the press, finger tight.",
+                "Pour in the hot water and cover. The coffee will slowly drip into the cup. Use the tip of a spoon or butter knife to turn the press clockwise (for tighter press, if the coffee is dripping too fast) or counter-clockwise (too loosen if the coffee isn’t dripping at all.) It should take about 3-5 minutes to finish brewing.",
+                "Stir the hot coffee and the sweetened condensed milk well. Pour over the ice in the tall glass."
+            ],
+            "rating": 4,
+            "serving": 1,
+            "author": "Jaden Nguyen",
+            "time": "6min",
+            "img": "images/coffee.png",
+            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "cuisine": "vietnamese",
+            "mealtype": "drinks"
+        },
+        {
+            "id": 6,
+            "name": "japanese purin",
+            "ingredients":[
+                "4 tbsp sugar",
+                "1 tbsp water",
+                "1-2 tbsp hot water",
+                "2 eggs",
+                "1/4 cup milk",
+                "5 tbsp sugar"
+            ],
+            "prep":[
+                "Coat the inner surface of the custard cups with unsalted butter. This will make it easy to remove the pudding from the cups.",
+                "Put the sugar and water in the pot. Heat the pot at medium heat. ",
+                "Let it sit until the surface becomes lightly-colored. Swirl the pot and even out the sugar liquid.",
+                "Caramelize the sugar until amber in colour and remove the pot from the heat.",
+                "Quickly add the hot water in 2 to 3 steps with a long-handled ladle. Tilt the pot away from you to avoid hot caramel sauce splashing and burning your hand. Swirl the pot and even out the hot caramel",
+                "Pour the caramel evenly into the custard cups.",
+                "Crack the two eggs into a bowl. Lightly beat the egg with a balloon whisk. Don’t let the tip of the whisk leave the bottom of the bowl to avoid creating too much foam.",
+                "Add the milk and sugar in a pot. Turn on the burner. Stir with a spatula until all the sugar is dissolved.",
+                "Add the milk to the beaten egg while whisking the mixture.",
+                "Sieve the egg mixture with a fine mesh strainer. Remove any foam on the surface with a spoon.",
+                "Gently fill the custard cups with the egg mixture. Cover each cup with aluminum foil.",
+                "Heat water in a pan and gently place the cups in it. The kitchen towel will soften the heat at the bottom. There should be enough hot water to cover the bottom half of the cups. Put the lid on.",
+                "Keep the water temperature just below the boiling point and steam the pudding for 18 to 20 minutes. Do not bring the water to a boil",
+                "Put kitchen gloves on and remove the custard cups. When they become cool, store them in the fridge. Turn the puddings out onto a plate an enjoy"
+            ],
+            "rating": 5,
+            "serving": 4,
+            "author": "Chef Francis",
+            "time": "40 min",
+            "img": "images/purin.png",
+            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "cuisine": "japanese",
+            "mealtype": "dessert"
         }
     ]
-
 }
 

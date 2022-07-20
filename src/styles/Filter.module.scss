@@ -23,14 +23,15 @@
             color: grey;
         }
         &__applybtn{
-            margin-left: 35%;
+            margin-right: 2%;
+            margin-top: 10px;
             margin-bottom: 10px;
             text-decoration: none;
             background-color: $accent;
             border-radius: 10px;
             font-family: $H2;
             font-size: 1rem;
-            padding: 5px 40px 5px 40px;
+            padding: 5px 20px 5px 20px;
             color: white;
             border: none;
             &:hover {
