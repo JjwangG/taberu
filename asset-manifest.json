@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/taberu/static/css/main.67f65c02.css",
-    "main.js": "/taberu/static/js/main.129693da.js",
+    "main.css": "/taberu/static/css/main.1b9dde8f.css",
+    "main.js": "/taberu/static/js/main.b125f2a4.js",
     "static/media/searchIcon.svg": "/taberu/static/media/searchIcon.ccb0674a44714598f876730f402e4a8f.svg",
     "index.html": "/taberu/index.html",
-    "main.67f65c02.css.map": "/taberu/static/css/main.67f65c02.css.map",
-    "main.129693da.js.map": "/taberu/static/js/main.129693da.js.map"
+    "main.1b9dde8f.css.map": "/taberu/static/css/main.1b9dde8f.css.map",
+    "main.b125f2a4.js.map": "/taberu/static/js/main.b125f2a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f65c02.css",
-    "static/js/main.129693da.js"
+    "static/css/main.1b9dde8f.css",
+    "static/js/main.b125f2a4.js"
   ]
 }
