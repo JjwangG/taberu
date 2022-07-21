@@ -8,7 +8,7 @@ function NavBar({onNavLinkClick, englishFlag, onLanguageBtnToggle}){
         switch(elemId) {
             case 'recipes':
                 if (englishFlag){ 
-                    return "recipes"
+                    return "today's recipe"
                 }
                 return "今日のレシピ";
                 break;
