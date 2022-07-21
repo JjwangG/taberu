@@ -6,7 +6,7 @@ import Filter from './components/Filter';
 import icon from './components/searchIcon.svg';
 import logo from './components/taberu_logo.svg';
 
-function Landing({englishFlag, onSearchClick, prevFilters,onFilterApply}) {
+function Landing({setSearch, englishFlag, onSearchClick, prevFilters,onFilterApply}) {
     const [buttonModal, setModal] = useState(false);
 
     function filterDialog(){
@@ -45,7 +45,7 @@ function Landing({englishFlag, onSearchClick, prevFilters,onFilterApply}) {
             </div>
             <h1 className ={classes.main__container__header}> taberu </h1>
             <div className ={classes.main__container__search}>
-                <input onChange={() => console.log('landing')} type="text" placeholder={getLabel("search")} className ={classes.main__container__search__input}/>
+                <input onChange={(e) => setSearch(e.target.value.toLowerCase().replace(/\s/g, ''))} type="text" placeholder={getLabel("search")} className ={classes.main__container__search__input}/>
                 <button type="button" onClick={filterDialog} className ={classes.main__container__search__filter}>{getLabel("filter")}</button>{' '}
                 <button type="button" onClick={() => onSearchClick()} className = {classes.main__container__search__btn}>
                     <img src = {icon} alt="" className = {classes.main__container__search__btn__icon}/>

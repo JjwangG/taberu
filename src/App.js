@@ -20,6 +20,7 @@ const App = () => {
   const [filtersList, setFiltersList] = useState(Object.assign({}, defaultFilters));
   const [searchResultsList, setSearchResultsList] = useState(json['recipes']);
   const [isEnglish, setIsEnglish] = useState(true);
+  const [searchWord, setSearchWord] = useState("");
   const todaysRecipe = 'no-knead focaccia'; 
 
   const onRecipesClick = (recipeName) => {
@@ -49,6 +50,9 @@ const App = () => {
     setPage('searchResults');    
 
     let tempVar = json['recipes'];
+    if (searchWord!=""){
+      tempVar = (tempVar.filter(recipe => recipe.name.toLowerCase().replace(/\s/g, '') == searchWord)).concat(tempVar.filter(recipe => recipe.name.includes(searchWord)));
+    }
     if (filtersList.cuisine != ""){
       tempVar = tempVar.filter(recipe => recipe.cuisine == filtersList.cuisine);
     }
@@ -72,9 +76,9 @@ const App = () => {
   return (
       <div>
         <NavBar onNavLinkClick={onNavClick} englishFlag = {isEnglish} onLanguageBtnToggle={onLanguageToggle}/>
-        { currentPage == 'landing' && <Landing englishFlag={isEnglish} onSearchClick={onSearchClicked} prevFilters={Object.assign({}, defaultFilters)} onFilterApply={onFilterApplyBtnClick}/>}
-        { currentPage == 'searchResults' && <SearchResults onRecipeClick={onRecipesClick} allRecipes={searchResultsList} 
-          prevFilters={filtersList} onFilterApplyClick={onFilterApplyBtnClick} onSearchClick={onSearchClicked} />}
+        { currentPage == 'landing' && <Landing setSearch={setSearchWord} englishFlag={isEnglish} onSearchClick={onSearchClicked} prevFilters={Object.assign({}, defaultFilters)} onFilterApply={onFilterApplyBtnClick}/>}
+        { currentPage == 'searchResults' && <SearchResults prevSearchWord={searchWord} setSearch={setSearchWord} onRecipeClick={onRecipesClick} allRecipes={searchResultsList} 
+          prevFilters={filtersList} onFilterApplyClick={onFilterApplyBtnClick} onSearchClick={onSearchClicked} englishFlag = {isEnglish}/>}
         { currentPage == 'recipes' && <RecipePage currentRecipe={getCurrentRecipe()}/>}
         { currentPage == 'about' && <About/>}
       </div>

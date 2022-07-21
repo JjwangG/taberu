@@ -20,7 +20,10 @@ function SearchResults({
     allRecipes,
     prevFilters,
     onFilterApplyClick,
-    onSearchClick
+    onSearchClick,
+    prevSearchWord,
+    setSearch,
+    englishFlag
 }) {
     const [buttonModal, setModal] = useState(false);
 
@@ -31,13 +34,13 @@ function SearchResults({
       <div className={classes.main}>
             <Col className={classes.main__container}>
                 <div className ={classes.main__container__search}>
-                    <input onChange={() => console.log('landing')} type="text"  placeholder="search" className ={classes.main__container__search__input}/>
+                    <input onChange={(e) => setSearch(e.target.value.toLowerCase().replace(/\s/g, ''))} type="text"  placeholder={prevSearchWord} className ={classes.main__container__search__input}/>
                     <button type="button" onClick={filterDialog} className ={classes.main__container__search__filter}>filter</button>{' '}
                     <button type="button" onClick={() => onSearchClick()} className = {classes.main__container__search__btn}>
                         <img src = {icon} alt="" className = {classes.main__container__search__btn__icon}/>
                     </button>
                 </div>
-                <Filter trigger = {buttonModal} setTrigger={setModal} filterList={prevFilters} onApplyClick = {onFilterApplyClick}> </Filter>
+                <Filter languageFlag={englishFlag} trigger = {buttonModal} setTrigger={setModal} filterList={prevFilters} onApplyClick = {onFilterApplyClick}> </Filter>
                 <h1 className={classes.main__container__header}>results</h1>
                 <div className = {classes.main__container__cards}>
                     {allRecipes.length === 0 && 
