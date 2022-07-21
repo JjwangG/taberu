@@ -24,7 +24,7 @@
             "author": "Shelley Albeluhn",
             "time": "1 hr 5 min",
             "img": "images/bananabread.jpg",
-            "video": "https://www.youtube.com/embed/watch?v=0W9lXaHcXL4&ab_channel=Allrecipes",
+            "video": "https://www.youtube.com/embed/vPUuY-bEK2w",
             "cuisine": "american",
             "mealtype": "dessert",
             "timeInt": 1.1
@@ -60,7 +60,7 @@
             "author": "Sarah Choi",
             "time": "20 min",
             "img": "images/stirfry.jpg",
-            "video": "https://www.youtube.com/embed/watch?v=WujehK7kYLM&ab_channel=ChineseCookingDemystified",
+            "video": "https://www.youtube.com/embed/WujehK7kYLM",
             "cuisine": "chinese",
             "mealtype": "entree",
             "timeInt": 0.4
@@ -92,7 +92,7 @@
             "author": "Sarah Jampel",
             "time": "9 hr 40 min",
             "img": "images/focaccia.jpg",
-            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "video": "https://www.youtube.com/embed/-DmVedGWAnU",
             "cuisine": "italian",
             "mealtype": "appetizer",
             "timeInt": 10
@@ -125,14 +125,14 @@
             "author": "Hyosun Kim",
             "time": "30min",
             "img": "images/jeon.png",
-            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "video": "https://www.youtube.com/embed/05SSlcjIsWM",
             "cuisine": "korean",
             "mealtype": "appetizer",
             "timeInt": 0.5
         },
         {
             "id": 5,
-            "name": "vietnamese iceed coffee",
+            "name": "vietnamese iced coffee",
             "ingredients":[
                 "2 tbsp medium-grind french roast coffee",
                 "2 tbsp sweetened condensed milk",
@@ -150,7 +150,7 @@
             "author": "Jaden Nguyen",
             "time": "6min",
             "img": "images/coffee.png",
-            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "video": "https://www.youtube.com/embed/Cb-6UyXo7Js",
             "cuisine": "vietnamese",
             "mealtype": "drinks",
             "timeInt": 0.1
@@ -187,7 +187,7 @@
             "author": "Chef Francis",
             "time": "40 min",
             "img": "images/purin.png",
-            "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
+            "video": "https://www.youtube.com/embed/N6JZx86OyXM",
             "cuisine": "japanese",
             "mealtype": "dessert",
             "timeInt": 0.7

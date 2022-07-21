@@ -2,6 +2,7 @@ import {Col} from 'react-bootstrap';
 import classes from './styles/RecipePage.module.scss'
 import React from 'react';
 import StarRating from './components/StarRating';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //<img src = {currentRecipe.img} className = {classes.main__info__img}/>
 function RecipePage({currentRecipe}) {
@@ -29,6 +30,10 @@ function RecipePage({currentRecipe}) {
                             ))}
                         </div>
                     </ul>
+                    <br/>
+                    <div>
+                        <iframe width="320" height="210" src={currentRecipe.video} title="YouTube video" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div className = {classes.main__recipe__prep}>
                     <h2>preparation</h2>
