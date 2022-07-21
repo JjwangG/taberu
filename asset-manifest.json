@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/taberu/static/css/main.a132df4a.css",
-    "main.js": "/taberu/static/js/main.f8c7c991.js",
+    "main.js": "/taberu/static/js/main.08df1ae3.js",
     "static/media/taberu_logo2.svg": "/taberu/static/media/taberu_logo2.0742070c3c24df3ebfb987164986c91e.svg",
     "static/media/taberu_logo.svg": "/taberu/static/media/taberu_logo.810edbb3c930f6dc201aa3bde77f3d9f.svg",
     "static/media/searchIcon.svg": "/taberu/static/media/searchIcon.ccb0674a44714598f876730f402e4a8f.svg",
     "index.html": "/taberu/index.html",
     "main.a132df4a.css.map": "/taberu/static/css/main.a132df4a.css.map",
-    "main.f8c7c991.js.map": "/taberu/static/js/main.f8c7c991.js.map"
+    "main.08df1ae3.js.map": "/taberu/static/js/main.08df1ae3.js.map"
   },
   "entrypoints": [
     "static/css/main.a132df4a.css",
-    "static/js/main.f8c7c991.js"
+    "static/js/main.08df1ae3.js"
   ]
 }
