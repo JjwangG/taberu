@@ -19,6 +19,8 @@ function About() {
                     from all walks of life, with Taberu, users are always one click away from the perfect afternoon
                     brunch, family dinner, or picnic appetizer. All that's left to do is cook! 
                 </p>
+                <br/>
+                <p className ={classes.main__container__text}>Link to our <a href="https://thewoksoflife.com/category/how-to/">blog</a> for more cooking tips and tricks</p>
             </Col>
         </div>
     );
