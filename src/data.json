@@ -26,7 +26,8 @@
             "img": "images/bananabread.jpg",
             "video": "https://www.youtube.com/embed/watch?v=0W9lXaHcXL4&ab_channel=Allrecipes",
             "cuisine": "american",
-            "mealtype": "baked"
+            "mealtype": "dessert",
+            "timeInt": 1.1
         },
         {
             "id": 2,
@@ -61,7 +62,8 @@
             "img": "images/stirfry.jpg",
             "video": "https://www.youtube.com/embed/watch?v=WujehK7kYLM&ab_channel=ChineseCookingDemystified",
             "cuisine": "chinese",
-            "mealtype": "entree"
+            "mealtype": "entree",
+            "timeInt": 0.4
         },
         {
             "id": 3,
@@ -92,7 +94,8 @@
             "img": "images/focaccia.jpg",
             "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
             "cuisine": "italian",
-            "mealtype": "baked"
+            "mealtype": "appetizer",
+            "timeInt": 10
         },
         {
             "id": 4,
@@ -124,7 +127,8 @@
             "img": "images/jeon.png",
             "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
             "cuisine": "korean",
-            "mealtype": "appetizer"
+            "mealtype": "appetizer",
+            "timeInt": 0.5
         },
         {
             "id": 5,
@@ -148,7 +152,8 @@
             "img": "images/coffee.png",
             "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
             "cuisine": "vietnamese",
-            "mealtype": "drinks"
+            "mealtype": "drinks",
+            "timeInt": 0.1
         },
         {
             "id": 6,
@@ -184,7 +189,8 @@
             "img": "images/purin.png",
             "video": "https://www.youtube.com/embed/watch?v=-DmVedGWAnU&ab_channel=Kitchen%26Craft",
             "cuisine": "japanese",
-            "mealtype": "dessert"
+            "mealtype": "dessert",
+            "timeInt": 0.7
         }
     ]
 }

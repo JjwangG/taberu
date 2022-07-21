@@ -20,6 +20,14 @@
         &__header{
             font-family: $H2;
             font-size: 1.3rem;
+            color: rgb(69, 69, 69);
+        }
+        &__p{
+            font-family: $H2;
+            color: grey;
+        }
+        &__p2{
+            font-family: $Body;
             color: grey;
         }
         &__applybtn{

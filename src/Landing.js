@@ -5,12 +5,13 @@ import { useState } from 'react';
 import Filter from './components/Filter';
 import icon from './components/searchIcon.svg';
 
-function Landing({onSearchClick}) {
+function Landing({onSearchClick, prevFilters,onFilterApply}) {
     const [buttonModal, setModal] = useState(false);
 
     function filterDialog(){
         setModal(true);
     }
+
     return (
         <div className={classes.main}>
             <Col className ={classes.main__container}>
@@ -23,7 +24,7 @@ function Landing({onSearchClick}) {
                 </button>
             </div>
             <p className ={classes.main__container__text}>a sea of recipes at your fingertips</p>
-            <Filter trigger = {buttonModal} setTrigger={setModal}> </Filter>
+            <Filter trigger = {buttonModal} setTrigger={setModal} filterList={prevFilters} onApplyClick = {onFilterApply}/>
             </Col>
         </div>
     );

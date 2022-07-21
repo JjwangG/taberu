@@ -16,6 +16,9 @@ const pageId = {
 const App = () => {
   const [currentPage, setPage] = useState('landing'); // searchResults, recipe
   const [curentrecipe, setCurrentRecipe] = useState('banana bread');
+  const defaultFilters = {'time':0, 'cuisine':"", 'meal':""};
+  const [filtersList, setFiltersList] = useState(Object.assign({}, defaultFilters));
+  const [searchResultsList, setSearchResultsList] = useState(json['recipes']);
   const todaysRecipe = 'no-knead focaccia'; 
 
   const onRecipesClick = (recipeName) => {
@@ -28,6 +31,9 @@ const App = () => {
     if (pageId == "recipes"){
       setCurrentRecipe(todaysRecipe);
     }
+    if (pageId == "landing"){
+      setSearchResultsList(json['recipes']);
+    }
   }
 
   const getCurrentRecipe= () => {
@@ -35,14 +41,35 @@ const App = () => {
   }
 
   const onSearchClicked = () => {
-    setPage('searchResults');
+    setPage('searchResults');    
+
+    let tempVar = json['recipes'];
+    if (filtersList.cuisine != ""){
+      tempVar = tempVar.filter(recipe => recipe.cuisine == filtersList.cuisine);
+    }
+    if (filtersList.meal != ""){
+      tempVar = tempVar.filter(recipe => recipe.mealtype == filtersList.meal);
+    }
+    if (filtersList.time != 0){
+      tempVar = tempVar.filter(recipe => recipe.timeInt <= filtersList.time);
+    }
+
+    setSearchResultsList(tempVar);
+    console.log(tempVar);
+  }
+
+  //should be called with filters = {[num, str, str]}
+  //
+  const onFilterApplyBtnClick = (newFilters) => {
+    setFiltersList(newFilters);
   }
 
   return (
       <div>
         <NavBar onNavLinkClick={onNavClick}/>
-        { currentPage == 'landing' && <Landing onSearchClick={onSearchClicked}/>}
-        { currentPage == 'searchResults' && <SearchResults onRecipeClick={onRecipesClick} allRecipes={json['recipes']}/>}
+        { currentPage == 'landing' && <Landing onSearchClick={onSearchClicked} prevFilters={Object.assign({}, defaultFilters)} onFilterApply={onFilterApplyBtnClick}/>}
+        { currentPage == 'searchResults' && <SearchResults onRecipeClick={onRecipesClick} allRecipes={searchResultsList} 
+          prevFilters={filtersList} onFilterApplyClick={onFilterApplyBtnClick} onSearchClick={onSearchClicked} />}
         { currentPage == 'recipes' && <RecipePage currentRecipe={getCurrentRecipe()}/>}
         { currentPage == 'about' && <About/>}
       </div>
