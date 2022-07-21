@@ -19,6 +19,7 @@ const App = () => {
   const defaultFilters = {'time':0, 'cuisine':"", 'meal':""};
   const [filtersList, setFiltersList] = useState(Object.assign({}, defaultFilters));
   const [searchResultsList, setSearchResultsList] = useState(json['recipes']);
+  const [isEnglish, setIsEnglish] = useState(true);
   const todaysRecipe = 'no-knead focaccia'; 
 
   const onRecipesClick = (recipeName) => {
@@ -34,6 +35,10 @@ const App = () => {
     if (pageId == "landing"){
       setSearchResultsList(json['recipes']);
     }
+  }
+
+  const onLanguageToggle = () => {
+    setIsEnglish(!isEnglish);
   }
 
   const getCurrentRecipe= () => {
@@ -66,8 +71,8 @@ const App = () => {
 
   return (
       <div>
-        <NavBar onNavLinkClick={onNavClick}/>
-        { currentPage == 'landing' && <Landing onSearchClick={onSearchClicked} prevFilters={Object.assign({}, defaultFilters)} onFilterApply={onFilterApplyBtnClick}/>}
+        <NavBar onNavLinkClick={onNavClick} englishFlag = {isEnglish} onLanguageBtnToggle={onLanguageToggle}/>
+        { currentPage == 'landing' && <Landing englishFlag={isEnglish} onSearchClick={onSearchClicked} prevFilters={Object.assign({}, defaultFilters)} onFilterApply={onFilterApplyBtnClick}/>}
         { currentPage == 'searchResults' && <SearchResults onRecipeClick={onRecipesClick} allRecipes={searchResultsList} 
           prevFilters={filtersList} onFilterApplyClick={onFilterApplyBtnClick} onSearchClick={onSearchClicked} />}
         { currentPage == 'recipes' && <RecipePage currentRecipe={getCurrentRecipe()}/>}

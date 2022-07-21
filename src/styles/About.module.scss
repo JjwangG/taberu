@@ -4,7 +4,10 @@
     &__container{
         text-align: center;
         padding: 8vmin;
+        &__imgContainer{
+            width: 30vw;
 
+        }
         &__header{
             font-family: $Header;
             font-size: 4rem;

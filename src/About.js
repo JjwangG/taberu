@@ -1,11 +1,15 @@
 import {Col} from 'react-bootstrap';
 import classes from './styles/About.module.scss'
 import React from 'react';
+import logo from './components/taberu_logo.svg'
 
 function About() {
     return (
         <div className={classes.main}>
             <Col className ={classes.main__container}>
+                <div>
+                    <img className  ={classes.main__container__img} src={logo} alt="logo" />
+                </div>
                 <h1 className ={classes.main__container__header}>about us</h1>
                 <p className ={classes.main__container__text}>
                     Whether you’re a foodie, an amateur cook, or a broke college student with a drawer full of 
